@@ -3,7 +3,6 @@ import React, { useRef, useLayoutEffect } from "react";
 export default function WasteManagementModal({ setSelectedService, items, setItems, rewards, setRewards }) {
   const pointsValue = { plasticBottles: 1, cans: 2 };
   const exchangeItems = { rice: 30, broom: 25 };
-
   const totalPoints =
     items.plasticBottles * pointsValue.plasticBottles +
     items.cans * pointsValue.cans;
