@@ -4,7 +4,6 @@ export default function News() {
   const [news, setNews] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-
   const fetchNews = useCallback(async () => {
     setLoading(true);
     setError(null);
