@@ -2,7 +2,7 @@
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json; charset=UTF-8");
 
-$apiKey = "pub_9265dde688a44ff2955ff608aa3f9297";
+$apiKey = "";
 $url = "https://newsdata.io/api/1/news?apikey=$apiKey&country=ph&language=en&category=top";
 
 $ch = curl_init();
