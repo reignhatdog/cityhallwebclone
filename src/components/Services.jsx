@@ -1,5 +1,4 @@
 import React from "react";
-
 export default function Services({ setSelectedService }) {
   return (
     <section id="offers" className="section alt-section">
